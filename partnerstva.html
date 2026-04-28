@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="utf-8">
+        <title>EESTech Challenge</title>
+        <link rel="stylesheet" href="stil.css">
+        <link rel="icon" href="icons/EC_logo_blue.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <a href="#header" id="progress">
+            <span id="progress_vrednost">&#x1F815;</span>
+        </a>
+        
+        <header id="header">
+            <a href="index.html">
+                <img src="icons/EC_logo_1.png" alt="EC_logo" id="EC-logo">
+            </a>
+
+            <div class="meni">
+                <div>
+                    <p></p>
+                </div>
+                <nav>
+                    <a href="hakaton.html">O hakatonu</a>
+                    <a href="program.html">Program</a>
+                    <a href="partnerstva.html">Partnerstva</a>
+                    <a href="istorijat.html">Istorijat</a>
+                </nav>
+                <div class="prijavi_se">
+                    <a href="prijava.html" class="prijavi_se">Prijavi se</a>
+                </div>
+            </div>
+
+            <button class="hamburger_meni">&#9776;</button>
+
+            <div class="pod_meni">
+                <a href="hakaton.html" class="pod_meni_opcija">O hakatonu</a>
+                <a href="program.html" class="pod_meni_opcija">Program</a>
+                <a href="partnerstva.html" class="pod_meni_opcija">Partnerstva</a>
+                <a href="istorijat.html" class="pod_meni_opcija">Istorijat</a>
+                <a href="prijava.html" id="pod_prijava" class="pod_meni_opcija">PRIJAVI SE</a>
+            </div>
+        </header>
+
+        
+        <main>
+            <div id="banner_partnerstva">
+                <h2>Partnerstva</h2>
+            </div>
+
+            <article>
+                <div class="partner_kartica dijamant skriven">
+                    <h2 >Dijamantski partneri</h2>
+                    <div class="partner_logoi">
+                        <img src="icons/grid_logo.png" alt="grid_logo" class="logo logo1">
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div class="partner_kartica prijatelj skriven">
+                    <h2 >Prijatelji projekta</h2>
+                    <div class="partner_logoi">
+                        <img src="icons/uns_logo.png" alt="grid_logo" class="logo logo2">
+                        <img src="icons/ftn_logo.png" alt="grid_logo" class="logo logo2">
+                    </div>
+                </div>
+            </article>
+
+            <h3 id="partner_poziv">Ostvarite partnerstvo i podržite učenje i razvitak mladih inženjera</h3>
+
+            <div class="partner_forma skriven">
+                <p>
+                    Partnerstvo sa EESTech Challenge hakatonom predstavlja jedinstvenu priliku za Vas da se direktno povežete sa talentovanim studentima tehničkih i IT usmerenja, pozicionira se kao inovativan i društveno odgovoran akter, i učestvuje u razvoju rešenja zasnovanih na realnim industrijskim izazovima. <br> <br>Kroz saradnju, dobijate pristup svežim idejama, mogućnost ranog prepoznavanja budućih kadrova, kao i snažnu vidljivost brenda u akademskoj i tehnološkoj zajednici.
+                </p>
+
+                <form class="forma_kompanija" action="#">
+                    <input type="text" placeholder="Ime i prezime" id="ime_firma">
+                    <input type="email" placeholder="E-mail adresa" id="email_firma">
+                    <input type="text" placeholder="Ime kompanije" id="naziv_kompanije">
+                    <textarea name="Poruka" id="poruka" placeholder="Vaša poruka"></textarea>
+                    <input type="button" name="Potvda" id="potvrda" value="POŠALJI">
+                </form>
+            </div>
+
+            <div id="modal" class="modali">
+                <div class="modal_sadrzaj">
+                    <span class="zatvori">&times;</span>
+                    <p>Hvala na Vašoj poruci!</p>
+                </div>
+            </div>
+        </main>
+
+        
+        <footer>
+            <a href="https://www.linkedin.com/company/eestech-challenge-novi-sad/posts/?feedView=all" target="_blank"><img src="icons/linkedin_logo.png" alt="linkedin logo" class="footer_logo"></a>
+            <a href="https://www.instagram.com/eestech.challenge.ns?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="icons/instagram_logo.png" alt="instagram logo" class="footer_logo"></a>
+            <a href="https://www.facebook.com/EESTechChallengeNoviSad" target="_blank"><img src="icons/facebook_logo.png" alt="facebook logo" class="footer_logo"></a>
+            <p>@EESTech Challenge</p>
+        </footer>
+        
+        <script src="script.js"></script>
+    </body>
+</html>

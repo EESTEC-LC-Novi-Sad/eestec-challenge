@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="sr">
+    <head>
+        <meta charset="utf-8">
+        <title>EESTech Challenge</title>
+        <link rel="stylesheet" href="stil.css">
+        <link rel="icon" href="icons/EC_logo_blue.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <a href="#header" id="progress">
+            <span id="progress_vrednost">&#x1F815;</span>
+        </a>
+
+        <header id="header">
+            <a href="index.html">
+                <img src="icons/EC_logo_1.png" alt="EC_logo" id="EC-logo">
+            </a>
+
+            <div class="meni">
+                <div>
+                    <p></p>
+                </div>
+                <nav>
+                    <a href="hakaton.html">O hakatonu</a>
+                    <a href="program.html">Program</a>
+                    <a href="partnerstva.html">Partnerstva</a>
+                    <a href="istorijat.html">Istorijat</a>
+                </nav>
+                <div class="prijavi_se">
+                    <a href="prijava.html" class="prijavi_se">Prijavi se</a>
+                </div>
+            </div>
+
+            <button class="hamburger_meni">&#9776;</button>
+
+            <div class="pod_meni">
+                <a href="hakaton.html" class="pod_meni_opcija">O hakatonu</a>
+                <a href="program.html" class="pod_meni_opcija">Program</a>
+                <a href="partnerstva.html" class="pod_meni_opcija">Partnerstva</a>
+                <a href="istorijat.html" class="pod_meni_opcija">Istorijat</a>
+                <a href="prijava.html" id="pod_prijava" class="pod_meni_opcija">PRIJAVI SE</a>
+            </div>
+        </header>
+
+        <main>
+            <div id="banner_prijava">
+                <h2>Prijave su otvorene do 22. aprila</h2>
+            </div>
+
+            <form class="forma_prijava skriven" action="#">
+                <input type="text" placeholder="Ime i prezime" id="ime">
+                <input type="email" placeholder="E-mail adresa" id="email">
+                <input type="number" placeholder="Broj telefona" id="tel">
+                <input type="text" placeholder="Naziv ekipe" id="ekipa">
+                <input type="text" placeholder="CV" id="cv">
+                <textarea name="Motivaciono pismo" id="motivaciono_pismo" placeholder="Motivaciono pismo"></textarea>
+                <input type="button" name="Potvda" id="potvrda" value="PRIJAVI SE">
+            </form>
+
+            <div id="modal" class="modali">
+                <div class="modal_sadrzaj">
+                    <span class="zatvori">&times;</span>
+                    <p>Vaša prijava je evidentirana!</p>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <a href="https://www.linkedin.com/company/eestech-challenge-novi-sad/posts/?feedView=all" target="_blank"><img src="icons/linkedin_logo.png" alt="linkedin logo" class="footer_logo"></a>
+            <a href="https://www.instagram.com/eestech.challenge.ns?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank"><img src="icons/instagram_logo.png" alt="instagram logo" class="footer_logo"></a>
+            <a href="https://www.facebook.com/EESTechChallengeNoviSad" target="_blank"><img src="icons/facebook_logo.png" alt="facebook logo" class="footer_logo"></a>
+            <p>@EESTech Challenge</p>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
+</html>
